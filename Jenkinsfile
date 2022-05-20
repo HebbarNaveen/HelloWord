@@ -3,9 +3,9 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        dotnetRestore(project: '\\**\\*.csproj')
+        dotnetRestore()
         dotnetClean()
-        dotnetBuild(noRestore: true, project: '\\HelloWord\\HelloWord.csproj', configuration: 'Release')
+        dotnetBuild(noRestore: true, configuration: 'Release')
       }
     }
 
