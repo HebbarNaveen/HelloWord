@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         dotnetRestore()
-        echo '${env.WORKSPACE}'
+        echo '"${env.WORKSPACE}"'
       }
     }
 
