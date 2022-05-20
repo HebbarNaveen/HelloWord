@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWord", "HelloWord\HelloWord.csproj", "{E8974717-344C-4C3C-8201-98D0F1BCAAB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWord", "HelloWord\HelloWord.csproj", "{E8974717-344C-4C3C-8201-98D0F1BCAAB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{82DE4CBD-9278-4BEA-93D6-DBD1376C3C94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowProject1", "tests\SpecFlowProject1\SpecFlowProject1.csproj", "{CC344DEF-3784-4971-8AEB-08ABDB034AAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{E8974717-344C-4C3C-8201-98D0F1BCAAB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8974717-344C-4C3C-8201-98D0F1BCAAB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8974717-344C-4C3C-8201-98D0F1BCAAB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC344DEF-3784-4971-8AEB-08ABDB034AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC344DEF-3784-4971-8AEB-08ABDB034AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC344DEF-3784-4971-8AEB-08ABDB034AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC344DEF-3784-4971-8AEB-08ABDB034AAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC344DEF-3784-4971-8AEB-08ABDB034AAF} = {82DE4CBD-9278-4BEA-93D6-DBD1376C3C94}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3140E5B5-68DE-4E69-9B00-BF73FC0D1658}
